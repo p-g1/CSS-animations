@@ -1,14 +1,14 @@
 div {
-  margin-top: 20%;
+  margin-top: 12.5%;
 }
 
 .wrapper1 {
-  width: 100px;
-  height: 100px;
+  width: 50px;
+  height: 50px;
   border-radius:50%;
   background-color: black;
   outline: 1px solid transparent;
-  margin-left: 23%;
+  margin: auto;
   position:relative;
   top:50%;
   transform: translateY(-50%);
@@ -16,24 +16,50 @@ div {
 }
 
 .wrapper2 {
+  width: 100px;
+  height: 100px;
+  border-radius:50% 10% 50% 10%;
+  background-color: white;
+  outline: 1px solid transparent;
+  margin: auto;
+  position:relative;
+  top:50%;
+  transform: translateY(-50%);
+
+}
+
+.wrapper3 {
+  width: 150px;
+  height: 150px;
+  border-radius:50%;
+  background-color: black;
+  outline: 1px solid transparent;
+  margin: auto;
+  position:relative;
+  top:50%;
+  transform: translateY(-50%);
+  animation: square-to-circle2 2s 1s infinite;
+}
+
+.wrapper4 {
   width: 200px;
   height: 200px;
   border-radius:50% 10% 50% 10%;
   background-color: white;
   outline: 1px solid transparent;
-  margin-left: 17%;
+  margin: auto;
   position:relative;
   top:50%;
   transform: translateY(-50%);
 }
 
-.wrapper3 {
+.wrapper5 {
   width: 300px;
   height: 300px;
   border-radius:50%;
   background-color: black;
   outline: 1px solid transparent;
-  margin-left: 30%;
+  margin: auto;
   animation: square-to-circle 2s 1s infinite;
 }
 
