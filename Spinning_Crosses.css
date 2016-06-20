@@ -1,0 +1,56 @@
+body{
+  background:#D06F2F;
+}
+ #cross {
+   background: #FF6600;
+   height: 100px;
+   position: relative;
+  float:left;
+  margin-left:100px;
+   width: 20px;
+}
+#cross:after {
+  background: #FF6600;
+  content: "";
+  height: 20px;
+  left: -40px;
+  position: absolute;
+  top: 40px;
+  width: 100px;
+}
+
+.spacer{
+  height:50%;
+}
+
+.a{
+  animation: spin 20s 1s infinite;
+}
+
+.b{
+  animation: backspin 20s 1s infinite;
+}
+
+@keyframes spin {
+  0%  {
+    transform:rotate(0deg);
+  }
+  50%  {
+    transform:rotate(360deg);
+  }
+  100% {
+    transform:rotate(0deg);
+  }
+}
+
+@keyframes backspin {
+  0%  {
+    transform:rotate(0deg);
+  }
+  50%  {
+    transform:rotate(-360deg);
+  }
+  100% {
+    transform:rotate(0deg);
+  }
+}
